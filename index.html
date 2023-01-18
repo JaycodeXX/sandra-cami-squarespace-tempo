@@ -19,30 +19,34 @@
 <body>
     <!----------- Header ----------->
     <header>
-        <nav>
+        <nav class="navbar">
             <!---- Logo ----->
-            <a href="index.html">Sandra Cami</a>
+            <a href="index.html" class="logo">Sandra Cami</a>
             <!----- Menu --------->
-            <div>
-                <a href="about.html">About</a>
-                <a href="about.html">Contact</a>
-                <a href="about.html">Blog</a>
-                <a href="https://instagram.com/officialjayboyyz" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://twitter.com/officialjayboyy" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <div class="menu">
+                <a href="about.html" class="nav_item" id="about">About</a>
+                <a href="about.html" class="nav_item">Contact</a>
+                <a href="about.html" class="nav_item">Blog</a>
+                <a href="https://instagram.com/officialjayboyyz" target="_blank" class="nav_item"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/officialjayboyy" target="_blank" class="nav_item"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </nav>
     </header>
     <!---------- Main Content------->
     <main>
         <!-------- Hero Section ------>
-        <section>
+        <section id="hero">
             <!------- H1 Text ---------->
-            <h1>Sandra Cami is a first-generation <br>
+            <h1 class="hero_text">Sandra Cami is a first-generation <br>
                 Vietnamese American designer. She is <br>
                 currently a principal designer at SQSP <br>
                  Studio in Montréal.</h1>
                  <!------ Paragraph Text ------->
-                 <p>A selection of work done between 2016-2019</p>
+                 <p class="hero_p">A selection of work done between 2016-2019</p>
         </section>
         <!------ Portfolio Section ------------>
         <section id="portfolio">
@@ -106,7 +110,7 @@
     <!----------- Footer ----------->
     <footer id="footer">
         <a href="mailto:diamondholdingslimited@gmail.com">diamondholdingslimited</a>
-        <p>Made with <a href="https://squarespace.com"></a>squarespace</p>
+        <p>Made with <a href="https://squarespace.com"></a>Squarespace</p>
     </footer>
 </body>
 </html>
