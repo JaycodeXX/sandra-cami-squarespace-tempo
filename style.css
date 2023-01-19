@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins',sans-serif;
     margin: 10% 5%;
-    background-color: antiquewhite;
+    background-color: #C8A47E;
 
 }
 section{
@@ -112,4 +112,43 @@ p,a{
 .portfolio_description{
     font-size: 2vw;
 }
+/* -------- About Queries -------- */
+.abt-content{
+    width: 100%;
+    flex-direction: column;
+}
+.abt-h1{
+    font-size: 5vw;
+}
+}
+
+/* -------- About Page --------- */
+
+.abt-h1{
+    padding-bottom: 3%;
+    font-size: 3.5vw;
+    font-weight: 500;
+    letter-spacing:0ch;
+}
+.abt-content{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5% 0;
+    
+}
+.abt-client{
+    width: 30%;
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+.abt-award{
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+.abt-content p{
+    font-weight: 500;
+}
+#client-space{
+    margin: 3% 0 1.2%;
 }
